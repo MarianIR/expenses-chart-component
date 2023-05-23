@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "DM Sans", sans-serif;
+  font-size: 10px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: hsl(27, 66%, 92%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.balance-header {
+  width: 90%;
+  max-width: 50rem;
+  padding: 1.5rem 2rem;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.balance-header .my-balance .title {
+  color: hsl(33, 100%, 98%);
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 0.5rem 0;
+}
+.balance-header .my-balance .total-balance {
+  font-size: 3rem;
+  font-weight: bold;
+  color: hsl(33, 100%, 98%);
+}
+.balance-header .logo {
+  width: 6rem;
+  height: 4rem;
+}
+
+.hero {
+  margin-top: 2rem;
+  width: 90%;
+  max-width: 50rem;
+  padding: 1.5rem 2rem;
+  background-color: hsl(33, 100%, 98%);
+  border-radius: 1rem;
+}
+.hero .hero-heading {
+  padding: 2rem;
+  font-size: clamp(1.9rem, 6vw, 2.5rem);
+  font-weight: bold;
+  color: hsl(25, 47%, 15%);
+}
+.hero .week-statistics {
+  width: 100%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 0.05rem solid hsl(28, 10%, 53%);
+  padding-bottom: 1.5rem;
+}
+.hero .week-statistics .graphic {
+  margin: 0.5rem 1rem;
+  padding: 0 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero .week-statistics .graphic .spending {
+  background-color: hsl(25, 47%, 15%);
+  border-radius: 0.5rem;
+  color: hsl(33, 100%, 98%);
+  padding: 0.5rem;
+  margin-top: -3rem;
+  display: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: absolute;
+}
+.hero .week-statistics .graphic .graphic-show {
+  background-color: hsl(10, 79%, 65%);
+  width: 3rem;
+  height: 5rem;
+  padding: 0.5rem;
+  margin: 0.5rem;
+  border-radius: 0.3rem;
+}
+.hero .week-statistics .graphic .graphic-show:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.hero .week-statistics .graphic .week-day {
+  color: hsl(28, 10%, 53%);
+  font-size: 1.2rem;
+}
+.hero .week-statistics .graphic .monday {
+  height: 4rem;
+}
+.hero .week-statistics .graphic .tuesday {
+  height: 7rem;
+}
+.hero .week-statistics .graphic .wednesday {
+  background-color: hsl(186, 34%, 60%);
+  height: 10rem;
+}
+.hero .week-statistics .graphic .thursday {
+  height: 6rem;
+}
+.hero .week-statistics .graphic .friday {
+  height: 4.5rem;
+}
+.hero .week-statistics .graphic .saturday {
+  height: 8.5rem;
+}
+.hero .week-statistics .graphic .sunday {
+  height: 5rem;
+}
+.hero .this-month {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-bottom: 1.5rem;
+}
+.hero .this-month .budget .paragraph {
+  font-size: 1.2rem;
+  color: hsl(28, 10%, 53%);
+}
+.hero .this-month .budget .money-budget {
+  font-size: 2.5rem;
+  color: hsl(25, 47%, 15%);
+  font-weight: bold;
+}
+.hero .this-month .gain .paragraph {
+  font-size: 1.2rem;
+  color: hsl(28, 10%, 53%);
+}/*# sourceMappingURL=main.css.map */
